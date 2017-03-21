@@ -2,9 +2,76 @@
 
 This document contains all the data to indicate all the variables and summaries calculated, along with units, and any other relevant information.
 ## Description of the variables in the final tidy dataset
-  subject_id : can take values from 1 - 30
-  activityName : is a factor variable can take any of the 6 values (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
-  all the other columns contain the mean values for the combination of the subject and the activity performed.
+ 1. subject_id : can take values from 1 - 30
+ 2. activityName : is a factor variable can take any of the 6 values (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
+ 3. All the other columns contain the mean statistics for the combination of the subject and the activity performed.
+ timeBodyaccelerometermean-X
+timeBodyaccelerometermean-Y
+timeBodyaccelerometermean-Z
+timeBodyaccelerometerstdDeviation-X
+timeBodyaccelerometerstdDeviation-Y
+timeBodyaccelerometerstdDeviation-Z
+timeGravityaccelerometermean-X
+timeGravityaccelerometermean-Y
+timeGravityaccelerometermean-Z
+timeGravityaccelerometerstdDeviation-X
+timeGravityaccelerometerstdDeviation-Y
+timeGravityaccelerometerstdDeviation-Z
+timeBodyaccelerometerJerkmean-X
+timeBodyaccelerometerJerkmean-Y
+timeBodyaccelerometerJerkmean-Z
+timeBodyaccelerometerJerkstdDeviation-X
+timeBodyaccelerometerJerkstdDeviation-Y
+timeBodyaccelerometerJerkstdDeviation-Z
+timeBodygyroscopemean-X
+timeBodygyroscopemean-Y
+timeBodygyroscopemean-Z
+timeBodygyroscopestdDeviation-X
+timeBodygyroscopestdDeviation-Y
+timeBodygyroscopestdDeviation-Z
+timeBodygyroscopeJerkmean-X
+timeBodygyroscopeJerkmean-Y
+timeBodygyroscopeJerkmean-Z
+timeBodygyroscopeJerkstdDeviation-X
+timeBodygyroscopeJerkstdDeviation-Y
+timeBodygyroscopeJerkstdDeviation-Z
+timeBodyaccelerometermagnitudemean
+timeBodyaccelerometermagnitudestdDeviation
+timeGravityaccelerometermagnitudemean
+timeGravityaccelerometermagnitudestdDeviation
+timeBodyaccelerometerJerkmagnitudemean
+timeBodyaccelerometerJerkmagnitudestdDeviation
+timeBodygyroscopemagnitudemean
+timeBodygyroscopemagnitudestdDeviation
+timeBodygyroscopeJerkmagnitudemean
+timeBodygyroscopeJerkmagnitudestdDeviation
+frequencyBodyaccelerometermean-X
+frequencyBodyaccelerometermean-Y
+frequencyBodyaccelerometermean-Z
+frequencyBodyaccelerometerstdDeviation-X
+frequencyBodyaccelerometerstdDeviation-Y
+frequencyBodyaccelerometerstdDeviation-Z
+frequencyBodyaccelerometerJerkmean-X
+frequencyBodyaccelerometerJerkmean-Y
+frequencyBodyaccelerometerJerkmean-Z
+frequencyBodyaccelerometerJerkstdDeviation-X
+frequencyBodyaccelerometerJerkstdDeviation-Y
+frequencyBodyaccelerometerJerkstdDeviation-Z
+frequencyBodygyroscopemean-X
+frequencyBodygyroscopemean-Y
+frequencyBodygyroscopemean-Z
+frequencyBodygyroscopestdDeviation-X
+frequencyBodygyroscopestdDeviation-Y
+frequencyBodygyroscopestdDeviation-Z
+frequencyBodyaccelerometermagnitudemean
+frequencyBodyaccelerometermagnitudestdDeviation
+frequencybodyaccelerometerJerkmagnitudemean
+frequencybodyaccelerometerJerkmagnitudestdDeviation
+frequencybodygyroscopemagnitudemean
+frequencybodygyroscopemagnitudestdDeviation
+frequencybodygyroscopeJerkmagnitudemean
+frequencybodygyroscopeJerkmagnitudestdDeviation
+
   
 ## Description of the Code
 
