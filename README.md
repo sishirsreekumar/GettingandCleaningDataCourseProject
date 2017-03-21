@@ -17,11 +17,11 @@ Uses descriptive activity names to name the activities in the data set
 Appropriately labels the data set with descriptive variable names.
 From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-##Run_Analysis.R
+## Run_Analysis.R
 To run the script, put the script in the current working directory and source the code by typing 
 source("run_analysis.R") in the console.
 
-###Getting the Data
+### Getting the Data
 The script firstly creates a directory/folder called data in the working directory. 
 It then downloads the file from the link provided: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip into this data directory as a zip file. The script goes on to unzip the zip file into the data/WearableData folder.
 
@@ -29,7 +29,7 @@ If you navigate to the WearableData folder you will see a folder called UCI HAR 
 All the required files are read and stored in dataframes in R (Test and Training  datasets for Subject, Activity and Features).
 
 After download and accessing/getting the data, the script performs the cleaning work
-###Cleaning the Data
+### Cleaning the Data
 1.a It merges the training and test dataset to create one dataset each for Subject, Activity, and Features. Some cleaning is performed on the column names to make it more interpretable (egs V1 to activity_id in the activity dataset).
 1.b After performing row-wise bind, column bind is performed to integrate the 3 datasets into 1 dataset with subject_id, activity_id and all the features).
 
