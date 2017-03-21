@@ -5,7 +5,7 @@ This document contains all the data to indicate all the variables and summaries 
  1. subject_id : can take values from 1 - 30
  2. activityName : is a factor variable can take any of the 6 values (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
  3. All the other columns contain the mean statistics for the combination of the subject and the activity performed.
- timeBodyaccelerometermean-X
+timeBodyaccelerometermean-X<br />
 timeBodyaccelerometermean-Y<br />
 timeBodyaccelerometermean-Z<br />
 timeBodyaccelerometerstdDeviation-X<br />
