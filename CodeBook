@@ -1,7 +1,11 @@
 # Codebook
 
 This document contains all the data to indicate all the variables and summaries calculated, along with units, and any other relevant information.
-
+## Description of the variables in the final tidy dataset
+  subject_id : can take values from 1 - 30
+  activityName : is a factor variable can take any of the 6 values (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
+  all the other columns contain the mean values for the combination of the subject and the activity performed.
+  
 ## Description of the Code
 
 1.a It merges the training and test dataset to create one dataset each for Subject, Activity, and Features. Some cleaning is performed on the column names to make it more interpretable (egs V1 to activity_id in the activity dataset).
@@ -17,7 +21,7 @@ This document contains all the data to indicate all the variables and summaries 
 
 6 The final tidy dataset is written to the working directory as tidydata.txt.
 
-## Variables
+## Variables in the Code
 
 activityTest, activityTrain contains the Test and Train data for activities i.e. Y_test.txt and Y_train.txt.
 subjectTest, subjectTrain contains the Test and Train data for subjects i.e. subject_test.txt.txt and subject_train.txt.txt.
